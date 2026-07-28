@@ -51,14 +51,13 @@ const showWinner = (userwin, userchoice, compchoice) => {
     }
 }
 
+const drawGame = () => {
+    msg.innerText = "Drawed Try Again";
+    msg.style.backgroundColor = "#081b31";
+}
 
 const computerChoice = () => {
     const options = ["rock", "paper", "scissors"];
     const randomidx = Math.floor(Math.random() * 3);
     return options[randomidx];
-}
-
-const drawGame = () => {
-    msg.innerText = "Drawed Try Again";
-    msg.style.backgroundColor = "#081b31";
 }
