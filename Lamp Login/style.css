@@ -7,9 +7,18 @@
 body{
     text-align: center;
 }
+
 .container{
     margin: 50px;
     padding: 50px;
-    height: 350px;
-    background-color: red;
 }
+
+input{
+    margin-top: 20px;
+}
+
+#login{
+    margin-top: 20px;
+    width: 100px;
+}
+
